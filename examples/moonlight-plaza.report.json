@@ -1,0 +1,387 @@
+{
+  "file_name": "moonlight-plaza.mp3",
+  "duration_seconds": 854.532,
+  "metadata": {
+    "duration_seconds": 854.532,
+    "bitrate_bps": 128009,
+    "sample_rate_hz": 48000,
+    "channels": 1,
+    "codec": "mp3",
+    "container": "mp3"
+  },
+  "audio_quality": {
+    "silence_ratio": 0.1378,
+    "clipping_detected": false,
+    "clipping_confidence": "low",
+    "avg_volume_db": -25.3,
+    "max_volume_db": -2.4,
+    "rms_level_db": -25.266259,
+    "noise_floor_db": null,
+    "silence_segments": [
+      {
+        "start_seconds": 0.572979,
+        "end_seconds": 1.861938
+      },
+      {
+        "start_seconds": 25.173146,
+        "end_seconds": 26.401896
+      },
+      {
+        "start_seconds": 32.795146,
+        "end_seconds": 39.266896
+      },
+      {
+        "start_seconds": 40.902229,
+        "end_seconds": 42.052375
+      },
+      {
+        "start_seconds": 43.270063,
+        "end_seconds": 44.744167
+      },
+      {
+        "start_seconds": 53.256917,
+        "end_seconds": 54.930708
+      },
+      {
+        "start_seconds": 67.415771,
+        "end_seconds": 68.584917
+      },
+      {
+        "start_seconds": 69.369937,
+        "end_seconds": 70.599688
+      },
+      {
+        "start_seconds": 85.880083,
+        "end_seconds": 88.467917
+      },
+      {
+        "start_seconds": 127.667979,
+        "end_seconds": 129.078417
+      },
+      {
+        "start_seconds": 135.266958,
+        "end_seconds": 136.526208
+      },
+      {
+        "start_seconds": 142.222896,
+        "end_seconds": 143.814083
+      },
+      {
+        "start_seconds": 148.746917,
+        "end_seconds": 150.208792
+      },
+      {
+        "start_seconds": 156.624375,
+        "end_seconds": 157.738729
+      },
+      {
+        "start_seconds": 179.943854,
+        "end_seconds": 180.961104
+      },
+      {
+        "start_seconds": 183.614375,
+        "end_seconds": 184.874812
+      },
+      {
+        "start_seconds": 189.575083,
+        "end_seconds": 190.835792
+      },
+      {
+        "start_seconds": 195.175625,
+        "end_seconds": 196.508458
+      },
+      {
+        "start_seconds": 201.566625,
+        "end_seconds": 202.689729
+      },
+      {
+        "start_seconds": 206.431417,
+        "end_seconds": 207.870646
+      },
+      {
+        "start_seconds": 215.530896,
+        "end_seconds": 216.548354
+      },
+      {
+        "start_seconds": 222.374708,
+        "end_seconds": 223.384958
+      },
+      {
+        "start_seconds": 229.702458,
+        "end_seconds": 231.382917
+      },
+      {
+        "start_seconds": 249.22775,
+        "end_seconds": 250.927458
+      },
+      {
+        "start_seconds": 256.175146,
+        "end_seconds": 257.424896
+      },
+      {
+        "start_seconds": 264.848604,
+        "end_seconds": 266.201229
+      },
+      {
+        "start_seconds": 266.830854,
+        "end_seconds": 267.995104
+      },
+      {
+        "start_seconds": 272.828792,
+        "end_seconds": 274.434375
+      },
+      {
+        "start_seconds": 277.346104,
+        "end_seconds": 278.692708
+      },
+      {
+        "start_seconds": 289.050458,
+        "end_seconds": 290.461667
+      },
+      {
+        "start_seconds": 298.666812,
+        "end_seconds": 299.798063
+      },
+      {
+        "start_seconds": 305.646458,
+        "end_seconds": 306.817729
+      },
+      {
+        "start_seconds": 311.933583,
+        "end_seconds": 313.519187
+      },
+      {
+        "start_seconds": 323.205333,
+        "end_seconds": 324.337812
+      },
+      {
+        "start_seconds": 331.486229,
+        "end_seconds": 332.955917
+      },
+      {
+        "start_seconds": 337.266583,
+        "end_seconds": 338.586521
+      },
+      {
+        "start_seconds": 345.655562,
+        "end_seconds": 347.227521
+      },
+      {
+        "start_seconds": 348.094229,
+        "end_seconds": 349.32575
+      },
+      {
+        "start_seconds": 356.873229,
+        "end_seconds": 358.239875
+      },
+      {
+        "start_seconds": 368.209896,
+        "end_seconds": 369.568708
+      },
+      {
+        "start_seconds": 375.233021,
+        "end_seconds": 376.642833
+      },
+      {
+        "start_seconds": 386.901937,
+        "end_seconds": 387.948083
+      },
+      {
+        "start_seconds": 407.734062,
+        "end_seconds": 408.816875
+      },
+      {
+        "start_seconds": 412.830896,
+        "end_seconds": 414.069875
+      },
+      {
+        "start_seconds": 420.73975,
+        "end_seconds": 422.05725
+      },
+      {
+        "start_seconds": 422.759271,
+        "end_seconds": 423.974146
+      },
+      {
+        "start_seconds": 434.643937,
+        "end_seconds": 435.705708
+      },
+      {
+        "start_seconds": 475.814792,
+        "end_seconds": 476.848792
+      },
+      {
+        "start_seconds": 483.120146,
+        "end_seconds": 484.377979
+      },
+      {
+        "start_seconds": 510.215354,
+        "end_seconds": 511.609146
+      },
+      {
+        "start_seconds": 550.208188,
+        "end_seconds": 551.442375
+      },
+      {
+        "start_seconds": 555.141729,
+        "end_seconds": 556.228375
+      },
+      {
+        "start_seconds": 565.646125,
+        "end_seconds": 567.216792
+      },
+      {
+        "start_seconds": 577.034458,
+        "end_seconds": 579.814
+      },
+      {
+        "start_seconds": 589.863583,
+        "end_seconds": 591.024375
+      },
+      {
+        "start_seconds": 596.772417,
+        "end_seconds": 598.159229
+      },
+      {
+        "start_seconds": 609.51875,
+        "end_seconds": 610.738187
+      },
+      {
+        "start_seconds": 628.649854,
+        "end_seconds": 630.305854
+      },
+      {
+        "start_seconds": 633.010208,
+        "end_seconds": 634.182771
+      },
+      {
+        "start_seconds": 653.968687,
+        "end_seconds": 655.050104
+      },
+      {
+        "start_seconds": 666.076771,
+        "end_seconds": 667.350146
+      },
+      {
+        "start_seconds": 675.150625,
+        "end_seconds": 678.018937
+      },
+      {
+        "start_seconds": 692.7125,
+        "end_seconds": 693.804583
+      },
+      {
+        "start_seconds": 699.397083,
+        "end_seconds": 700.407417
+      },
+      {
+        "start_seconds": 707.486375,
+        "end_seconds": 708.522562
+      },
+      {
+        "start_seconds": 715.070792,
+        "end_seconds": 716.473667
+      },
+      {
+        "start_seconds": 731.070396,
+        "end_seconds": 733.513104
+      },
+      {
+        "start_seconds": 754.065021,
+        "end_seconds": 755.990312
+      },
+      {
+        "start_seconds": 760.011396,
+        "end_seconds": 761.251688
+      },
+      {
+        "start_seconds": 767.596083,
+        "end_seconds": 769.418625
+      },
+      {
+        "start_seconds": 778.76475,
+        "end_seconds": 780.165417
+      },
+      {
+        "start_seconds": 782.508375,
+        "end_seconds": 783.686271
+      },
+      {
+        "start_seconds": 793.465979,
+        "end_seconds": 795.174437
+      },
+      {
+        "start_seconds": 800.781771,
+        "end_seconds": 801.963
+      },
+      {
+        "start_seconds": 803.119896,
+        "end_seconds": 806.827771
+      },
+      {
+        "start_seconds": 831.788104,
+        "end_seconds": 832.967854
+      },
+      {
+        "start_seconds": 843.030729,
+        "end_seconds": 844.064729
+      },
+      {
+        "start_seconds": 849.299583,
+        "end_seconds": 850.786667
+      },
+      {
+        "start_seconds": 851.605687,
+        "end_seconds": 854.532
+      }
+    ],
+    "extra_metrics": {
+      "peak_to_mean_db": 22.9
+    }
+  },
+  "issues": [
+    {
+      "type": "long_silence",
+      "severity": "warning",
+      "message": "Long silence (6s) between 0:32 and 0:39",
+      "start_seconds": 32.795146,
+      "end_seconds": 39.266896
+    }
+  ],
+  "insight": {
+    "summary": "The audio file 'moonlight-plaza.mp3' has a silence ratio of 13.78%, indicating some silent segments that could be trimmed. The average volume is -25.3 dB, which is quite low, while the maximum volume peaks at -2.4 dB, suggesting potential clipping issues if the audio were to be amplified. Additionally, there is a long silence of 6 seconds between 32 and 39 seconds.",
+    "recommended_actions": [
+      "Consider trimming the long silence between 32 and 39 seconds to improve flow.",
+      "Increase the overall volume level to raise the average closer to -12 dB for better listening experience without clipping.",
+      "Monitor for any background noise if the noise floor is determined in future analyses."
+    ],
+    "usable_as_is": false,
+    "generated_by": "llm:gpt-4o-mini"
+  },
+  "analysis_metadata": {
+    "mode": "deterministic",
+    "analyzers": [
+      "silence",
+      "volume",
+      "noise",
+      "dynamic_range",
+      "bitrate"
+    ],
+    "config": {
+      "silence_noise_db": -30.0,
+      "silence_min_duration": 1.0,
+      "silence_merge_gap": 0.5,
+      "high_silence_ratio": 0.3,
+      "long_silence_seconds": 5.0,
+      "low_mean_volume_db": -30.0,
+      "clipping_peak_db": -1.0,
+      "high_confidence_clipping_db": -0.1,
+      "clipping_sample_count": 100,
+      "elevated_noise_floor_db": -45.0,
+      "max_astats_duration_seconds": 14400,
+      "low_bitrate_bps": 64000
+    }
+  },
+  "analysis_version": "1.0.0",
+  "error": null
+}

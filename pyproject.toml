@@ -1,0 +1,43 @@
+[project]
+name = "audioscope"
+version = "0.1.0"
+description = "Audio quality analysis with ffmpeg and LLM-generated insights."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6",
+    "typer>=0.12",
+    "openai>=1.30",
+    "python-dotenv>=1.0",
+    "fastmcp>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.5",
+]
+
+[project.scripts]
+audioscope = "audioscope.cli:app"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["audioscope*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+# Typer's API intentionally uses function calls (Option/Argument) as defaults.
+"audioscope/cli.py" = ["B008"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

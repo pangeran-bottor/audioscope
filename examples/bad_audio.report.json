@@ -1,0 +1,156 @@
+{
+  "file_name": "bad_audio.mp3",
+  "duration_seconds": 121.107625,
+  "metadata": {
+    "duration_seconds": 121.107625,
+    "bitrate_bps": 47235,
+    "sample_rate_hz": 16000,
+    "channels": 1,
+    "codec": "mp3",
+    "container": "mp3"
+  },
+  "audio_quality": {
+    "silence_ratio": 0.3199,
+    "clipping_detected": true,
+    "clipping_confidence": "high",
+    "avg_volume_db": -16.6,
+    "max_volume_db": -0.4,
+    "rms_level_db": -16.605719,
+    "noise_floor_db": null,
+    "silence_segments": [
+      {
+        "start_seconds": 3.361125,
+        "end_seconds": 5.330687
+      },
+      {
+        "start_seconds": 23.19775,
+        "end_seconds": 26.0295
+      },
+      {
+        "start_seconds": 28.469,
+        "end_seconds": 30.183937
+      },
+      {
+        "start_seconds": 32.389688,
+        "end_seconds": 43.195312
+      },
+      {
+        "start_seconds": 44.821688,
+        "end_seconds": 46.83525
+      },
+      {
+        "start_seconds": 47.714625,
+        "end_seconds": 49.214438
+      },
+      {
+        "start_seconds": 50.975,
+        "end_seconds": 53.018563
+      },
+      {
+        "start_seconds": 54.280188,
+        "end_seconds": 57.86625
+      },
+      {
+        "start_seconds": 58.694063,
+        "end_seconds": 60.259563
+      },
+      {
+        "start_seconds": 62.76825,
+        "end_seconds": 64.717938
+      },
+      {
+        "start_seconds": 94.951188,
+        "end_seconds": 96.171875
+      },
+      {
+        "start_seconds": 99.9475,
+        "end_seconds": 101.375125
+      },
+      {
+        "start_seconds": 103.282688,
+        "end_seconds": 104.6565
+      },
+      {
+        "start_seconds": 107.87025,
+        "end_seconds": 109.596625
+      },
+      {
+        "start_seconds": 111.929563,
+        "end_seconds": 113.592687
+      },
+      {
+        "start_seconds": 118.534,
+        "end_seconds": 119.883125
+      }
+    ],
+    "extra_metrics": {
+      "peak_to_mean_db": 16.2
+    }
+  },
+  "issues": [
+    {
+      "type": "long_silence",
+      "severity": "warning",
+      "message": "Long silence (11s) between 0:32 and 0:43",
+      "start_seconds": 32.389688,
+      "end_seconds": 43.195312
+    },
+    {
+      "type": "high_silence_ratio",
+      "severity": "warning",
+      "message": "32% of the recording is silent; consider trimming dead air",
+      "start_seconds": null,
+      "end_seconds": null
+    },
+    {
+      "type": "clipping",
+      "severity": "critical",
+      "message": "Possible clipping/distortion (high confidence: peak -0.4 dB with 779 samples at 0 dBFS)",
+      "start_seconds": null,
+      "end_seconds": null
+    },
+    {
+      "type": "low_bitrate",
+      "severity": "info",
+      "message": "Low bitrate (47 kbps) may reduce audio fidelity",
+      "start_seconds": null,
+      "end_seconds": null
+    }
+  ],
+  "insight": {
+    "summary": "The audio file 'bad_audio.mp3' has a significant silence ratio of 31.99%, indicating that nearly a third of the recording is silent, which may require trimming. Additionally, the average volume is -16.6 dB, which is relatively quiet, and there is critical clipping detected with peaks reaching -0.4 dB, suggesting potential distortion.",
+    "recommended_actions": [
+      "Trim the long silences, particularly the 11-second stretch between 32s and 43s.",
+      "Address the clipping issue by reducing the overall volume or adjusting the dynamic range to prevent distortion.",
+      "Consider re-encoding the audio at a higher bitrate to improve fidelity."
+    ],
+    "usable_as_is": false,
+    "generated_by": "llm:gpt-4o-mini"
+  },
+  "analysis_metadata": {
+    "mode": "deterministic",
+    "analyzers": [
+      "silence",
+      "volume",
+      "noise",
+      "dynamic_range",
+      "bitrate"
+    ],
+    "config": {
+      "silence_noise_db": -30.0,
+      "silence_min_duration": 1.0,
+      "silence_merge_gap": 0.5,
+      "high_silence_ratio": 0.3,
+      "long_silence_seconds": 5.0,
+      "low_mean_volume_db": -30.0,
+      "clipping_peak_db": -1.0,
+      "high_confidence_clipping_db": -0.1,
+      "clipping_sample_count": 100,
+      "elevated_noise_floor_db": -45.0,
+      "max_astats_duration_seconds": 14400,
+      "low_bitrate_bps": 64000
+    }
+  },
+  "analysis_version": "1.0.0",
+  "error": null
+}

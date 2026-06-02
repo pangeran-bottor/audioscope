@@ -1,0 +1,11 @@
+{
+  "silence_noise_db": -35.0,
+  "silence_min_duration": 0.5,
+  "high_silence_ratio": 0.10,
+  "long_silence_seconds": 3.0,
+  "low_mean_volume_db": -28.0,
+  "clipping_peak_db": -1.0,
+  "high_confidence_clipping_db": -0.1,
+  "elevated_noise_floor_db": -50.0,
+  "low_bitrate_bps": 96000
+}

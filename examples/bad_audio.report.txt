@@ -1,0 +1,15 @@
+📄 bad_audio.mp3
+   duration=2m01s  bitrate=47kbps  sample_rate=16000Hz  channels=1  codec=mp3
+   silence_ratio=32%  clipping=True (high)  avg_volume=-16.6dB  peak=-0.4dB
+   noise_floor=n/a  rms=-16.605719dB  dynamic_range=16.2dB
+   issues:
+     ⚠ [warning] Long silence (11s) between 0:32 and 0:43
+     ⚠ [warning] 32% of the recording is silent; consider trimming dead air
+     ✖ [critical] Possible clipping/distortion (high confidence: peak -0.4 dB with 779 samples at 0 dBFS)
+     ℹ [info] Low bitrate (47 kbps) may reduce audio fidelity
+   insight (llm:gpt-4o-mini):
+     The audio file 'bad_audio.mp3' has a significant silence ratio of 31.99%, indicating that nearly a third of the recording is silent, which may require trimming. Additionally, there is critical clipping detected with a peak volume of -0.4 dB, suggesting potential distortion, and the average volume is relatively low at -16.6 dB. The bitrate of 47 kbps is also low, which may affect overall audio fidelity.
+     → Trim the long silences, especially the 11-second stretch between 32s and 43s, to improve flow.
+     → Address the clipping issue by reducing the peak volume to avoid distortion, ideally keeping it below -1 dB.
+     → Consider re-encoding the audio at a higher bitrate to enhance fidelity.
+     usable as-is: no
