@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/header.png" alt="audioscope" width="100%">
+</p>
+
 # audioscope
 
 `audioscope` analyzes audio files with `ffmpeg`/`ffprobe`, produces a structured JSON
